@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "840446912831",
+    "firebase_url": "https://bookyourmeal-c1eee.firebaseio.com",
+    "project_id": "bookyourmeal-c1eee",
+    "storage_bucket": "bookyourmeal-c1eee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840446912831:android:83308783fd47f48f",
+        "android_client_info": {
+          "package_name": "com.sawankumarsingh.bookyourmeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840446912831-su1488fes1osn8k5o22t1cch8c6du86g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sawankumarsingh.bookyourmeal",
+            "certificate_hash": "759ef97bb88d7f3e014d1adb2fc4bb0600313f00"
+          }
+        },
+        {
+          "client_id": "840446912831-d3nuqe2p7ce8j27amron4bnfo5ige57a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPuDZR6_R4z8ML-wdcfkn5bIyGv-BeyHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840446912831-d3nuqe2p7ce8j27amron4bnfo5ige57a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
