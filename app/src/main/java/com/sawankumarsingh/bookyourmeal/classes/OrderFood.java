@@ -2,7 +2,7 @@ package com.sawankumarsingh.bookyourmeal.classes;
 
 public class OrderFood {
 
-    String extra_items, food_type, name, price;
+    private String extra_items, food_type, name, price;
 
     public String getExtra_items() {
         return extra_items;

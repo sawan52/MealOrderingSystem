@@ -2,7 +2,7 @@ package com.sawankumarsingh.bookyourmeal.classes;
 
 public class StationNames {
 
-    String arrival_time, halt_time, station_name;
+    private String arrival_time, halt_time, station_name;
 
     public String getArrival_time() {
         return arrival_time;

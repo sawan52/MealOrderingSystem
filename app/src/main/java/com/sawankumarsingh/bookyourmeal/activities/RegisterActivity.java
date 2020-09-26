@@ -22,7 +22,6 @@ import com.sawankumarsingh.bookyourmeal.R;
 public class RegisterActivity extends AppCompatActivity {
 
     private EditText emailID, password_editText;
-    private Button signUp;
     private ProgressDialog progressDialog;
 
     private FirebaseAuth mAuth;
@@ -35,7 +34,7 @@ public class RegisterActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         progressDialog = new ProgressDialog(this);
-        signUp = findViewById(R.id.sign_Up);
+        Button signUp = findViewById(R.id.sign_Up);
         emailID = findViewById(R.id.EMAIL_editText);
         password_editText = findViewById(R.id.PASSWORD_editText);
 
@@ -75,7 +74,6 @@ public class RegisterActivity extends AppCompatActivity {
         if (password.length() < 8) {
             password_editText.setError("Minimum password length should be 8");
             password_editText.requestFocus();
-            return;
         } else {
 
             progressDialog.setMessage("Registering User...Please wait!");

@@ -2,7 +2,7 @@ package com.sawankumarsingh.bookyourmeal.classes;
 
 public class RestaurantNames {
 
-    String address, amount, image, name, time;
+    private String address, amount, image, name, time;
 
     public String getAddress() {
         return address;
